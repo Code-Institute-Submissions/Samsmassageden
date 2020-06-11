@@ -1,11 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
-
+/* --------------------------------------- nav bar */
 .nav-link{
     font-family: "Dancing script" , sans-serif;
     font-weight: 600 ;
     letter-spacing: 2px;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
+}
+
+.facebook-link{
+    margin-left: 250px;
+    position: relative;
+    font-size: 30px;
+}
+
+/* --------------------------------------- bookings */
+
+.booking-heading{
+    font-family: "Dancing script" , sans-serif;
+    font-weight:  600;
+    text-align: center;
+    font-size: 60px;
+}
+
+.booking-statment{
+    font-family: "lato" , sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
 }
