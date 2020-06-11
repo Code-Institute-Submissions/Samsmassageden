@@ -5,10 +5,18 @@
 .nav-link{
     font-family: "Dancing script" , sans-serif;
     font-weight: 600 ;
+    color: #F83196;
     letter-spacing: 2px;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 10px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+
+.navbar-color{
+    background-color: #fff;
 }
 
 .facebook-link{
@@ -17,11 +25,103 @@
     font-size: 30px;
 }
 
+.logo{
+    max-width: 110%;
+}
+
+/* --------------------------------------- index */
+
+
+.carousel-image-container{
+position: relative;
+width: 100%;
+height: 40%;
+background-color: rgba(248, 49, 150, 0.5);
+overflow: hidden;
+top: 0;
+}
+
+
+.carousel-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+
+
+.image-padding{
+    padding: 0 0 0 0;
+} 
+
+.image-sam-container{
+    
+    position: absolute;
+    width: 181px;
+    height: 211px;
+    mix-blend-mode: normal; 
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-left: 125px;
+}
+
+.image-sam{
+    width: inherit;
+    height: inherit;
+     border-radius: 100px;
+     
+   
+}
+
+.about-heading{
+    font-family: "dancing script" , sans-serif;
+    color: #F83196;
+    padding-top: 20px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.info{
+    font-family: "Lato" , sans-serif;
+    color: #808080;
+    font-size: 20px;
+}
+
+.why-heading{
+    font-family: "dancing script" , sans-serif;
+    color: #F83196;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.why-info{
+    text-align: center;
+}
+
+.image-candle-container{
+    position: absolute;
+width: 181px;
+height: 211px;
+border-radius: 100px;
+Padding-top: 250px;
+padding-left: 125px;
+
+}
+
+.image-candle{
+        width: inherit;
+    height: inherit;
+     border-radius: 100px;
+}
+
+
 /* --------------------------------------- bookings */
 
 .booking-heading{
     font-family: "Dancing script" , sans-serif;
     font-weight:  600;
+    color:#F83196;
     text-align: center;
     font-size: 60px;
 }
@@ -29,6 +129,90 @@
 .booking-statment{
     font-family: "lato" , sans-serif;
     font-weight: 400;
+    font-size: 20px;
     text-align: center;
     font-size: 20px;
+    color:   #808080;
+}
+
+/* --------------------------------------- contact */
+.contact-heading ,
+.location-heading{
+    font-family: "dancing script" , sans-serif;
+    color:#F83196;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-details{
+    font-family: "Lato" , sans-serif;
+    color: #808080;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-list ,
+.location-info{
+    font-family: "Lato" , sans-serif;
+    color: #808080;
+    font-size: 20px;
+}
+
+.map-location{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.location-info{
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* --------------------------------------- treatments */
+
+.treatments-heading{
+    font-family: "dancing script" , sans-serif;
+    color:#F83196;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#pricelist {
+	background:  rgba(248, 49, 149, 0.192);
+	border-collapse: collapse;
+    font-family: "lato" , sans-serif;
+    color: #808080;
+}
+
+#pricelist th,
+#pricelist td {
+	padding:1em;
+	text-align: left;
+}
+
+.treatment-image-container{
+    position: relative;
+    max-height: 40%;
+}
+
+.treatment-image{
+    
+}
+
+.treatment-info{
+    font-family: "lato" , sans-serif;
+    color: #808080;
+}
+
+
+
+
+/* --------------------------------------- footer */
+
+footer{
+    background: #F83196;
+    height: 75px;
+    padding-top: 10px;
 }
