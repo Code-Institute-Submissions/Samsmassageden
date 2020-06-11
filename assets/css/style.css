@@ -54,16 +54,18 @@ top: 0;
 .image-padding{
     padding: 0 0 0 0;
 } 
+.style{
+    width: 80%;
+    margin: auto
+}
 
 .image-sam-container{
     
-    position: absolute;
+   
     width: 181px;
     height: 211px;
     mix-blend-mode: normal; 
     border-radius: 100px;
-    padding-top: 20px;
-    padding-left: 125px;
 }
 
 .image-sam{
@@ -100,7 +102,7 @@ top: 0;
 }
 
 .image-candle-container{
-    position: absolute;
+    
 width: 181px;
 height: 211px;
 border-radius: 100px;
@@ -180,10 +182,12 @@ padding-left: 125px;
 }
 
 #pricelist {
-	background:  rgba(248, 49, 149, 0.192);
+    width: 80%;
+    margin: auto;
 	border-collapse: collapse;
     font-family: "lato" , sans-serif;
     color: #808080;
+    overflow-x: auto;
 }
 
 #pricelist th,
@@ -195,10 +199,11 @@ padding-left: 125px;
 .treatment-image-container{
     position: relative;
     max-height: 40%;
+    margin-top: 15%;
 }
 
 .treatment-image{
-    
+  width: inherit;
 }
 
 .treatment-info{
