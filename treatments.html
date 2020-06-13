@@ -1,175 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Sam's Massage Den</title>
+    </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<title>Sam's Massage Den</title>
-</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" alt="Sam's Massage Den" height="100px" width="275px" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="treatments.html">Treatments & Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookings.html">Bookings</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="carousel-image-container">
+                <div class="image-padding">
+                    <img class="carousel-image" src="assets/images/carousel-image.jpg" alt="" />
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="treatments-heading">Treatments and Pricing</h1>
+                </div>
+            </div>
+        </section>
+        <section>
+            <table id="pricelist">
+                <tbody>
+                    <tr>
+                        <td>Indian Head Massage</td>
+                        <td>This includes head, face, half back, arms and neck</td>
+                        <td>45 mins</td>
+                        <td>£25</td>
+                    </tr>
+                    <tr>
+                        <td>Indian Head Massage</td>
+                        <td>This treatment is for the head only</td>
+                        <td>30 mins</td>
+                        <td>£20</td>
+                    </tr>
+                    <tr>
+                        <td>Indian Head, Back & Shoulders Massage</td>
+                        <td>This includes head, face, full back, arms and neck</td>
+                        <td>1hr 15 mins</td>
+                        <td>£45</td>
+                    </tr>
 
-<body>
-	<header>
-		<nav class="navbar navbar-expand-lg  navbar-color fixed -top">
-			<a class="navbar-brand"
-				href="index.html"><img src="assets/images/logo.png" class="logo" alt="Sam's Massage Den" height="100px" width="275px"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="treatments.html">Treatments &
-								Pricing<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="bookings.html">Bookings<span class="sr-only">(current)</span></a>
-						</li>
-					</ul>
-				</div>
-
-		</nav>
-
-	</header>
-	<section>
-		<div class="carousel-image-container">
-
-			<div class="image-padding ">
-				<img class="carousel-image" src="assets/images/carousel-image.jpg" alt="">
-
-			</div>
-
-
-			</div>
-	</section>
-	<section class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-				<h1 class="treatments-heading">Treatments and Pricing</h1>
-			</div>
-		</div>
-	</section>
-	<section>
-
-		<table id="pricelist">
-
-
-			<tbody>
-				<tr>
-					<td>Indian Head Massage</td>
-					<td>This includes head, face, half back, arms and neck</td>
-					<td>45 mins</td>
-					<td>£25</td>
-				</tr>
-				<tr>
-					<td>Indian Head Massage</td>
-					<td>This treatment is for the head only</td>
-					<td>30 mins</td>
-					<td>£20</td>
-				</tr>
-				<tr>
-					<td>Indian Head, Back & Shoulders Massage</td>
-					<td>This includes head, face, full back, arms and neck</td>
-					<td>1hr 15 mins</td>
-					<td>£45</td>
-				</tr>
-
-				<tr>
-					<td>Indian Head & Facial</td>
-					<td>This includes a facial followed by an indian head</td>
-					<td>45 mins</td>
-					<td>£25</td>
-				</tr>
-				<tr>
-					<td>Full Facial</td>
-					<td>This includes an arm, chest, neck and face massage, followed by a facial cleanse, tone,
-						exfoliate,
-						mask & moisturise. Along with a 10 min head, hand or foot massage whilst the mask works it's
-						magic</td>
-					<td>1hr</td>
-					<td>£40</td>
-				</tr>
-				<tr>
-					<td>Express Facial</td>
-					<td>This includes a facial cleanse, tone, exfoliate,
-						mask & moisturise. Along with a 10 min head, hand or foot massage whilst the mask works it's
-						magic</td>
-					<td>30 mins</td>
-					<td>£20</td>
-				</tr>
-				<tr>
-					<td>Swedish Full Body</td>
-					<td>This includes the full back, neck, arms, legs, hands, chest and face</td>
-					<td>1hr 30 mins</td>
-					<td>£40</td>
-				</tr>
-				<tr>
-					<td>Swedish Full Body</td>
-					<td>This includes the full back, neck, arms, hands, legs and feet</td>
-					<td>1hr</td>
-					<td>£30</td>
-				</tr>
-				<tr>
-					<td>Back and Shoulders Massage</td>
-					<td>This includes full back and shoulders</td>
-					<td>30 mins</td>
-					<td>£15</td>
-				</tr>
-			</tbody>
-		</table>
-
-	</section>
-	<section class=" container-fluid">
-		<div class="row">
-			<div class="col-4 treatment-image-container">
-				<img class="treatment-image" src="assets/images/treatment.jpeg" alt="">
-          </div>
-				<div class="col-8">
-					<h1 class="treatments-heading">About the products I use</h1>
-					<h3 class="treatments-heading">Skintruth collection</h3>
-					<p class="treatment-info">Skintruth is a professional beauty range which unifies naturally derived
-						and scientifically advanced ingredients to optimise skincare for an enhanced salon experience.
-						Offering exceptional quality throughout its range of individually created treatments, each
-						skincare solution has been carefully formulated with the perfect blend of specialist ingredients
-						and essential oils. A trustworthy collection that delivers performance in all key treatment
-						areas, a guaranteed client favourite.
-						The Skintruth range is Paraben, Sulphate & Mineral Oil Free.</p>
-					<h3 class="treatments-heading">Body blended oils</h3>
-					<p class="treatment-info">Our unique body blends are the perfect accompaniment to any massage
-						treatment, each providing a targeted
-						solution to individual needs. Using a mixture of natural oils and extracts the blends will
-						inspire a feeling of calm
-						and well-being, re-balancing the body from the stresses of everyday life.</p>
-					<h3 class="treatments-heading">Face blended oils</h3>
-					<p class="treatment-info">Perfect for facial and massage treatments this range will provide targeted
-						solution for tired, unbalanced
-						skin. Blended oils are specially formulated using a mixture of naturally derived extracts and
-						oils, creating the
-						ultimate solution for your specific needs. Gentle ingredients will calm problem areas whilst
-						bringing skin back
-						to it's natural glow.</p>
-					<h3 class="treatments-heading">Carrier oils</h3>
-					<p class="treatment-info">Our oils are of the finest quality and 100% pure undiluted, resulting in a
-						comprehensive range created for the
-						needs of the professional aroma therapist. Offering a diverse selection of oils for specific
-						client requirements,
-						this range uses naturally derived oils to create the ultimate blissful experience.</p>
-				</div>
-			</div>
-	</section>
-	<footer>
-
-	</footer>
-</body>
-
+                    <tr>
+                        <td>Indian Head & Facial</td>
+                        <td>This includes a facial followed by an indian head</td>
+                        <td>45 mins</td>
+                        <td>£25</td>
+                    </tr>
+                    <tr>
+                        <td>Full Facial</td>
+                        <td>This includes an arm, chest, neck and face massage, followed by a facial cleanse, tone, exfoliate, mask & moisturise. Along with a 10 min head, hand or foot massage whilst the mask works it's magic</td>
+                        <td>1hr</td>
+                        <td>£40</td>
+                    </tr>
+                    <tr>
+                        <td>Express Facial</td>
+                        <td>This includes a facial cleanse, tone, exfoliate, mask & moisturise. Along with a 10 min head, hand or foot massage whilst the mask works it's magic</td>
+                        <td>30 mins</td>
+                        <td>£20</td>
+                    </tr>
+                    <tr>
+                        <td>Swedish Full Body</td>
+                        <td>This includes the full back, neck, arms, legs, hands, chest and face</td>
+                        <td>1hr 30 mins</td>
+                        <td>£40</td>
+                    </tr>
+                    <tr>
+                        <td>Swedish Full Body</td>
+                        <td>This includes the full back, neck, arms, hands, legs and feet</td>
+                        <td>1hr</td>
+                        <td>£30</td>
+                    </tr>
+                    <tr>
+                        <td>Back and Shoulders Massage</td>
+                        <td>This includes full back and shoulders</td>
+                        <td>30 mins</td>
+                        <td>£15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-4 treatment-image-container">
+                    <img class="treatment-image" src="assets/images/treatment.jpeg" alt="" />
+                </div>
+                <div class="col-8">
+                    <h1 class="treatments-heading">About the products I use</h1>
+                    <h3 class="treatments-heading">Skintruth collection</h3>
+                    <p class="treatment-info">
+                        Skintruth is a professional beauty range which unifies naturally derived and scientifically advanced ingredients to optimise skincare for an enhanced salon experience. Offering exceptional quality throughout its
+                        range of individually created treatments, each skincare solution has been carefully formulated with the perfect blend of specialist ingredients and essential oils. A trustworthy collection that delivers performance
+                        in all key treatment areas, a guaranteed client favourite. The Skintruth range is Paraben, Sulphate & Mineral Oil Free.
+                    </p>
+                    <h3 class="treatments-heading">Body blended oils</h3>
+                    <p class="treatment-info">
+                        Our unique body blends are the perfect accompaniment to any massage treatment, each providing a targeted solution to individual needs. Using a mixture of natural oils and extracts the blends will inspire a feeling of
+                        calm and well-being, re-balancing the body from the stresses of everyday life.
+                    </p>
+                    <h3 class="treatments-heading">Face blended oils</h3>
+                    <p class="treatment-info">
+                        Perfect for facial and massage treatments this range will provide targeted solution for tired, unbalanced skin. Blended oils are specially formulated using a mixture of naturally derived extracts and oils, creating
+                        the ultimate solution for your specific needs. Gentle ingredients will calm problem areas whilst bringing skin back to it's natural glow.
+                    </p>
+                    <h3 class="treatments-heading">Carrier oils</h3>
+                    <p class="treatment-info">
+                        Our oils are of the finest quality and 100% pure undiluted, resulting in a comprehensive range created for the needs of the professional aroma therapist. Offering a diverse selection of oils for specific client
+                        requirements, this range uses naturally derived oils to create the ultimate blissful experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer></footer>
+    </body>
 </html>
