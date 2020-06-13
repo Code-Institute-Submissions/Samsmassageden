@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
 
 /* --------------------------------------- nav bar */
-.nav-link {
-    color: #f83196;
+.navbar-light .navbar-nav .nav-link  {
     font-family: "Dancing script", sans-serif;
+    color: #f83196;
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 30px;
