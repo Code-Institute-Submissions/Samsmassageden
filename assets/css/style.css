@@ -205,7 +205,11 @@ footer {
 .price-list-image {
     color: #ffffff;
     font-size: 30px;
-    text-align: right;
+}
+
+.download-text{
+   color: #ffffff;
+    font-size: 15px;
 }
 
 /* --------------------------------------- media queries */
