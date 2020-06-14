@@ -41,10 +41,10 @@ users of the website are clinets and new customers of Sam's massage den. They co
 
 ## Credits
 
-The image used for the carousel was from - https://unsplash.com/
-The information about the products was from - https://www.skintruth.co.uk/about/
-The information on why to choose massage therapy was from - https://www.sfsm.edu/reasons-to-choose-massage-therapy
-The html for the navbar and bookings forn are from the bootstrap website but then styled accordingly.
+* The image used for the carousel was from - https://unsplash.com/
+* The information about the products was from - https://www.skintruth.co.uk/about/
+* The information on why to choose massage therapy was from - https://www.sfsm.edu/reasons-to-choose-massage-therapy
+* The html for the navbar and bookings forn are from the bootstrap website but then styled accordingly.
 
 ## acknowledgmemnts
 * Seun Owonikoko @seun_mentor
