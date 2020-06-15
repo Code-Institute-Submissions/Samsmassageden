@@ -187,13 +187,19 @@ img{
     padding-top: 20px;
 }
 
+.table-heading{
+    font-family: "Dancing script" , sans-serif;
+    color:#f83196;
+    font-size: 26px;
+}
+
+
 #pricelist {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
     font-family: "lato", sans-serif;
     color: #808080;
-    overflow-x: auto;
 }
 
 #pricelist th,
@@ -255,5 +261,11 @@ footer {
 @media only screen and (max-width 800px) {
     .style{
         width: 95%;
+    }
+
+    #pricelist{
+    overflow: scroll;
+    overflow-x: auto;
+    white-space: nowrap;
     }
 }
