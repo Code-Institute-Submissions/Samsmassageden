@@ -5,7 +5,6 @@ version of it aswell.
 
 Hosted on GitHub Pages Repository on GitHub
 
-## License
 
 ## UX
 
@@ -44,7 +43,8 @@ users of the website are clinets and new customers of Sam's massage den. They co
 * The image used for the carousel was from - https://unsplash.com/
 * The information about the products was from - https://www.skintruth.co.uk/about/
 * The information on why to choose massage therapy was from - https://www.sfsm.edu/reasons-to-choose-massage-therapy
-* The html for the navbar and bookings forn are from the bootstrap website but then styled accordingly.
+* The html for the navbar and bookings forn are from the bootstrap website but then styled accordingly
+* price list table was templated from https://www.sitepoint.com/community/t/best-method-of-displaying-a-pricelist/74730/5
 
 ## acknowledgmemnts
 * Seun Owonikoko @seun_mentor
