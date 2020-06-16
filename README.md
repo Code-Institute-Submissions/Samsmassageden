@@ -50,7 +50,7 @@ a copy of the price list for future reference.
 * [Github pages](https://jtyler4699.github.io/Samsmassageden/) - Site hosted on Github pages
 * [Am i responsive?](http://ami.responsivedesign.is/) - testing the resposivness of the website
 * w3c schools [HTML](https://validator.w3.org/) & [CSS](https://jigsaw.w3.org/css-validator/) checker - to make sure HTML and CSS was valid
-*[figma](https://www.figma.com/) - for wireframes/mockups
+* [figma](https://www.figma.com/) - for wireframes/mockups
 
 ## Testing
 
