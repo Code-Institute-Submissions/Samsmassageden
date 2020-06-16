@@ -67,12 +67,12 @@ Tested on;
 * [Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
 
 ### Testing on devices   
-   Tested on;
-    * Laptop
-    * Desktop
-    * Mobile devices
-    * Ipad
-    * xbox/TV screen
+Tested on;
+* Laptop
+* Desktop
+* Mobile devices
+* Ipad
+* xbox/TV screen
 
 
 ## Credits
