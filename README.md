@@ -25,16 +25,16 @@ a copy of the price list for future reference.
     as a complimentary font for all other text
 
 ## Features
-*UX elements
-*Responsive design - Mobile First
-*Bootstrap - HTML, CSS Framework
+* UX elements
+* Responsive design - Mobile First
+* Bootstrap - HTML, CSS Framework
    Grid System - Columns and Rows
-*Colour Scheme
-*Documentation - ReadMe File, Licence & Mockups
-*Accesibility
-*Git - Version Control System
-*GitHub - Remote Repository
-*Deployed - Hosted on Github Pages
+* Colour Scheme
+* Documentation - ReadMe File, Licence & Mockups
+* Accesibility
+* Git - Version Control System
+* GitHub - Remote Repository
+* Deployed - Hosted on Github Pages
 
 ## Mockups
 [mockups](https://www.figma.com/file/p6Y4Rth8SNSxNy5yGXfcZL/Sams-beauty-den) were completed using [Figma](https://www.figma.com/)
@@ -61,10 +61,10 @@ Manual testing was completed by:
 3. Opening the web page in a browser
 
 ### Testing on multiple browsers
-     Tested on;
-     *[Google chrome](https://www.google.co.uk/chrome/)
-     *[Microsft edge](https://www.microsoft.com/en-us/edge)
-     *[Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
+Tested on;
+* [Google chrome](https://www.google.co.uk/chrome/)
+* [Microsft edge](https://www.microsoft.com/en-us/edge)
+* [Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
 
 ### Testing on devices   
    Tested on;
