@@ -53,6 +53,27 @@ users of the website are clinets and new customers of Sam's massage den. They co
 
 ## Testing
 
+### Manual testing
+Manual testing was completed by:
+1. running the "python3 -m http.server" command into the workspace terminal
+2. Making the 8000 port public
+3. Opening the web page in a browser
+
+### Testing on multiple browsers
+     Tested on;
+     *[Google chrome](https://www.google.co.uk/chrome/)
+     *[Microsft edge](https://www.microsoft.com/en-us/edge)
+     *[Mozilla firefox](https://www.mozilla.org/en-GB/firefox/new/)
+
+### Testing on devices   
+   Tested on;
+    * Laptop
+    * Desktop
+    * Mobile devices
+    * Ipad
+    * xbox/TV screen
+
+
 ## Credits
 
 * [image used for the carousel](https://unsplash.com/photos/hBLf2nvp-Yc)

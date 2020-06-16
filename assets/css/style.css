@@ -181,6 +181,12 @@
     padding-top: 20px;
 }
 
+.pricelist-style{
+    overflow: scroll;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
 .table-heading{
     font-family: "Dancing script" , sans-serif;
     color:#f83196;
