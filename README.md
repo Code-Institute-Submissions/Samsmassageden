@@ -12,9 +12,10 @@ Hosted on [GitHub Pages](https://jtyler4699.github.io/Samsmassageden/) Repositor
 users of the website are clinets and new customers of Sam's massage den. They come to the website wanting to book a massage or to contact Sam.
 
 ## User stories
-1. A new client wants to book in a particular type of massage
-2. A client would like to find out about the pricing and length of a treatment
-3. A client is unsure of how to conatct sam and is unsure of where she is located
+1. A new client wants to book in a particular type of massage and so comes to the website in order to find out which treatment she would like.
+2. A client would like to find out about the pricing and length of a  treatment and wants to keep a copy of the price list so she comes to the website and is able to download
+a copy of the price list for future reference.
+3. A client is unsure of how to conatct sam and is unsure of where she is located, by accessing the site the user is able to have a map view of where to find the location and how to contact Sam
 
 ## Design
 
