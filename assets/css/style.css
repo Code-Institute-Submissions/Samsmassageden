@@ -59,6 +59,7 @@
     height: 211px;
     mix-blend-mode: normal;
     border-radius: 100px;
+    margin: auto;
 }
 
 .image-sam {
@@ -96,6 +97,7 @@
     width: 181px;
     height: 211px;
     border-radius: 100px;
+    margin: auto;
   }    
 
 .image-candle {
@@ -262,6 +264,20 @@ footer {
     .style{
         width: 95%;
     }
+
+    .info {
+    text-align: center;
+}
+
+.image-sam-container
+.image-candle-container
+.image-sam
+.image-candle{
+     margin: auto;
+    display: block;
+}
+
+
 
     #pricelist{
     overflow: scroll;

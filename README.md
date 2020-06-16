@@ -9,7 +9,7 @@ Hosted on [GitHub Pages](https://jtyler4699.github.io/Samsmassageden/) Repositor
 ![am i responsive](/documentation/responsive.png)
 
 ## Users
-users of the website are clinets and new customers of Sam's massage den. They come to the website wanting to book a massage or to contact Sam.
+Users of the website are clinets and new customers of Sam's massage den. They come to the website wanting to book a massage or to contact Sam.
 
 ## User stories
 1. A new client wants to book in a particular type of massage and so comes to the website in order to find out which treatment she would like.
@@ -37,7 +37,7 @@ a copy of the price list for future reference.
 * Deployed - Hosted on Github Pages
 
 ## Mockups
-[mockups](https://www.figma.com/file/p6Y4Rth8SNSxNy5yGXfcZL/Sams-beauty-den) were completed using [Figma](https://www.figma.com/)
+[Mockups](https://www.figma.com/file/p6Y4Rth8SNSxNy5yGXfcZL/Sams-beauty-den) were completed using [Figma](https://www.figma.com/)
 
 ## Technologies used
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - for structure
@@ -56,7 +56,7 @@ a copy of the price list for future reference.
 
 ### Manual testing
 Manual testing was completed by:
-1. running the "python3 -m http.server" command into the workspace terminal
+1. Running the "python3 -m http.server" command into the workspace terminal
 2. Making the 8000 port public
 3. Opening the web page in a browser
 
@@ -77,11 +77,23 @@ Tested on;
 
 ## Credits
 
-* [image used for the carousel](https://unsplash.com/photos/hBLf2nvp-Yc)
-* [information about the products](https://www.skintruth.co.uk/about/)
-* [information on why to choose massage therapy](https://www.sfsm.edu/reasons-to-choose-massage-therapy)
-* [html for the navbar and bookings](https://getbootstrap.com/docs/4.0/components/navbar/)
-* [price list table](https://www.sitepoint.com/community/t/best-method-of-displaying-a-pricelist/74730/5)
+* [Image used for the carousel](https://unsplash.com/photos/hBLf2nvp-Yc)
+* [Information about the products](https://www.skintruth.co.uk/about/)
+* [Information on why to choose massage therapy](https://www.sfsm.edu/reasons-to-choose-massage-therapy)
+* [HTML for the navbar and bookings](https://getbootstrap.com/docs/4.0/components/navbar/)
+* [Price list table](https://www.sitepoint.com/community/t/best-method-of-displaying-a-pricelist/74730/5)
+
+## Deployment
+
+The project is hosted on [GitHub Pages](https://jtyler4699.github.io/Samsmassageden/)
+
+The process involved:
+
+* Host a git repository on GitHub
+* The workspace contains README.md, index.html, contact.html, bookings.html, treatments.html and style.css
+* On GitHub repository settings page move to GitHub Pages section
+* Change source to master branch
+* Provided link will be your projects home page (this is index.html)
 
 ## Acknowledgmemnts
 * Seun Owonikoko @seun_mentor
